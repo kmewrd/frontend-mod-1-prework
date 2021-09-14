@@ -24,21 +24,30 @@ for (var i = 0; i < 3; i++) {
 
 // What is logged to the console for this second example? Why?
 // EXPLAIN:
-
+// The console logs 0, 1, 2. In line 21, the variable i is set to 0. It states that when
+// i is less than 3, it will log the result and add 1 to the value of i. It repeats this loop
+// until the condition returns false, when it reaches 3, and then the loop ends.
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
-
+var i;
+for (i = 0; i < 7; i++) {
+  console.log(2 + 2);
+}
 
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'
  // 10 times.
-
+for (var i = 0; i < 10; i++) {
+  console.log("She sells seashells down by the seashore.");
+}
 
 //-------------------
 // LEVEL 2: An Added Layer of Challenge
 //-------------------
 
-// YOU DO: Write code below that logs to the console a String of "This is loop number: " 
+// YOU DO: Write code below that logs to the console a String of "This is loop number: "
 //that concatenates with `i`.
+var i;
+console.log("This is loop number: " + i);
 
 // YOU DO: Using a for loop, how could you get an output that looks like this:
 
@@ -53,6 +62,10 @@ for (var i = 0; i < 3; i++) {
 // 2
 // 1
 
-// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend 
+for (i = 10; i > 0; i--) {
+  console.log(i);
+}
+
+// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend
 // more than 15 minutes without making progress. If you are at 15 minutes and haven't made
 // progress, that means it's time to reach out to your pre-work group on Slack!
