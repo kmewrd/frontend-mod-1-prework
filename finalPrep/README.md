@@ -2,13 +2,13 @@
 Congrats on making it to the Mod 0 Final Prep! Complete the final exercises below and be sure to carefully follow the Pull Request steps to submit your work!
 
 ### Final Technical Prep
-You've learned a ton about some of the core foundations of Javascript! Show us how far you've come by completing the following exercises! You will be using your work from these exercises in your first day of Mod 1! 
+You've learned a ton about some of the core foundations of Javascript! Show us how far you've come by completing the following exercises! You will be using your work from these exercises in your first day of Mod 1!
 
-- [ ] Complete the [Mod Zero Hero Challenge](./modZeroHero.js)
-- [ ] Complete the [Annotation Challenge](./annotations.js) 
+- [x] Complete the [Mod Zero Hero Challenge](./modZeroHero.js)
+- [x] Complete the [Annotation Challenge](./annotations.js)
 
 ### Refactor Previous Work
-You've learned A LOT over the last few weeks as it relates to technical content - chances are, you probably have some code from your previous exercises that is either sloppy, incorrect, poorly named, etc. Before starting Mod 1, we want you to `refactor` your code - which is the process of adjusting or improving your code for readability and accuracy. 
+You've learned A LOT over the last few weeks as it relates to technical content - chances are, you probably have some code from your previous exercises that is either sloppy, incorrect, poorly named, etc. Before starting Mod 1, we want you to `refactor` your code - which is the process of adjusting or improving your code for readability and accuracy.
 
 Some things to consider as you refactor include...
 - Are my variable names easy to understand/convey the data type they are assigned to?
@@ -31,24 +31,24 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- `Add Week 1 Screenshot Here`
-- `Add Week 2 Screenshot Here`
-- `Add Week 3 Screenshot Here`
+![Screen Shot 2021-09-20 at 12 43 02 PM (2)](https://user-images.githubusercontent.com/79027364/134049254-6d13d1b2-45aa-4b9e-9673-469b63d0b51b.png)
+![Screen Shot 2021-09-20 at 12 43 07 PM (2)](https://user-images.githubusercontent.com/79027364/134049312-f0536b5a-ff50-4ed8-a6f5-db029a4803a8.png)
+![Screen Shot 2021-09-20 at 12 43 12 PM (2)](https://user-images.githubusercontent.com/79027364/134049356-5440eaa4-2f0b-4dac-83fd-bc6280d51e9f.png)
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
-- [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
-  - [ ] Add link to your gist here: 
+- [x] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
+  - [x] Add link to your gist here: [Mentee: DTR Prep](https://gist.github.com/kmewrd/ad057693edac43dc2311dfcb72e2f97e)
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
-- [ ] Complete the [Pre Teaching Practice exercise](https://gist.github.com/ericweissman/0036e8fe272c02bd6d4bb14f42fd2f79) gist
-  - [ ] Add a link to your gist here:
+- [x] Complete the [Pre Teaching Practice exercise](https://gist.github.com/ericweissman/0036e8fe272c02bd6d4bb14f42fd2f79) gist
+  - [x] Add a link to your gist here: [My Pre-Teaching Practice](https://gist.github.com/kmewrd/c90d0ac8933c0a61808567123738ddfb)
 
 ### Group Work Prep
 As part of Turing's project-based learning approach, you will often be working in pairs or larger groups. In order to set yourself (and your team) up for success, it is important to ensure you are prepared to be an equitable contributor and teammate.
-- [ ] Complete the [DTR Guiding Questions](https://gist.github.com/ericweissman/c56f3a98cdce761808c21d498a52f5c6)
-  - [ ] Add a link to your gist here: 
+- [x] Complete the [DTR Guiding Questions](https://gist.github.com/ericweissman/c56f3a98cdce761808c21d498a52f5c6)
+  - [x] Add a link to your gist here: [My DTR Guiding Questions](https://gist.github.com/kmewrd/8c101c53d2d474468230e63e149c4010)
 
 ## All Done? How to Submit your M1 Prework
 When you have completed *ALL* the activities described above, follow the steps below to submit your technical prework.
@@ -78,13 +78,19 @@ Depending on if you are in Section A or B, you have anywhere between 1.5-3.5 wee
 
 What is your plan and how are you going to hold yourself to it? Specifically...
 - What are you going to work on? [Resources here](https://github.com/turingschool-examples/fe-m1-practice)
+I am going to work on reviewing the last two sections of Mod 1 Prework, which are the sections that took the most time for me. I will work specifically on functions, classes, and methods.
 - What days are you going to work?
+I won't be starting Mod 1 until November so I have about 7 weeks until the start date. (I took an earlier Mod 0 so that I wouldn't be doing Mod 0 while also working on a fundraiser for my current job.) I will probably spend at least 2 hours every weekend between now and Mod 1 working on review and practice exercises. For the last 2 weeks before starting Mod 1, I will dedicate significantly more time to studying and review. Specifically, 4+ hours every weekday. (This equates to about 40 hours of time studying.)
 - What times on those days are you going to work?
+On Sundays, probably between 2pm and 4pm. On weekdays, probably 10am to noon and then 2pm to 4pm.
 - Where you going to be sitting/standing as you do this?
+Sitting. I'd love to get a standing desk eventually, but I don't have one right now.
 - Where are you documenting this plan? Google Calendar, calendar on your wall, your journal?
+Google Calendar.
 - Do any stakeholders in your life know about this plan? (The answer needs to be yes by the time you answer this...)
+Yes, my partner.
 - What personal items/events are important to you during this time? How are you going to make sure those are not neglected? (Hint, block time on the calendar for them!)
+My birthday is the first day of Mod 1. I might have a small get together the week before. My dog and partner are important to me, so I will probably block time off on the calendar to take her to the park and spend uninterrupted time with my partner.
 
 ## Extensions
 Check out our thoughts on [extension activities](https://mod0.turing.io/prework/extensions) if you find yourself with some extra time before starting Mod 1!
-
