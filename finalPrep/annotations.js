@@ -1,63 +1,65 @@
 // Add your annotations, line by line, to the code below using code comments.
 // Use the double // to create a new comment
 
-//Build a Bear - this line declares a function called buildABear with five parameters
+//Build a Bear
+// Declare a function called buildABear with 5 parameters.
 function buildABear(name, age, fur, clothes, specialPower) {
-// This line declares a variable with the value of a string. The string is interpolated with the value of name.
+// Declare a variable called greeting that is assigned to a string interpolated with the variable name.
   var greeting = `Hey partner! My name is ${name} - will you be my friend?!`;
-// This line declares a variable with the value of an array. The array contains two variables: name and age.
+// Declare a variable called demographics that is assigned to an array. The array contains the two parameters name and age.
   var demographics = [name, age];
-// This line declares a variable with the value of a string that is concatenated with another variable.
+// Declare a variable called powerSaying that is assigned to a string concatenated with the variable specialPower.
   var powerSaying = "Did you know that I can " + specialPower + " ?";
-// This line declares a variable that is assigned to an object
+// Declare a variable called builtBear that is assigned to an object.
   var builtBear = {
-// The key or property name basicInfo is assigned to the value of demographics.
+// The key or property name basicInfo is assigned to the variable demographics.
     basicInfo: demographics,
-// The key clothes is assigned to clothes (which is a parameter of the function).
+// The key clothes is assigned to the parameter clothes.
     clothes: clothes,
-// The key exterior is assigned to fur (also a parameter of the function).
+// The key exterior is assigned to the parameter fur.
     exterior: fur,
-// The key cost is assigned to the value of a number, 49.99.
+// The key cost is assigned to the number 49.99.
     cost: 49.99,
-// The key sayings is assigned to an array. The array contains the greeting and powerSaying variables as well as a string.
+// The key sayings is assigned to an array. The array contains the variables greeting and powerSaying, as well as a string.
     sayings: [greeting, powerSaying, "Goodnight my friend!"],
 // The key isCuddly is assigned to a Boolean value of true.
     isCuddly: true,
   };
-// This line, which is contained within the function, stops the execution of the function and returns the value of builtBear.
+// When the function is called, return the value of builtBear.
   return builtBear
 }
-// The function is called and arguments are passed into the function as strings, numbers, and an array.
+// Call the buildABear function and pass arguments into the function as strings, a number, and an array.
 buildABear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares');
-// The function is called and arguments are passed into the function as strings, numbers, and an array.
+// Call the buildABear function and pass arguments into the function as strings, a number, and an array.
 buildABear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in');
 
 
 
-//FizzBuzz - this line declares a function called fizzBuzz with three parameters.
+//FizzBuzz
+// Declare a function called fizzBuzz with 3 parameters.
 function fizzBuzz(num1, num2, range) {
-// This line creates a for loop where i is initialized to 0, a condition is set where i is less than or equal to the value of range, and i is incremented (adding 1) at each step.
+// Declare a for loop where i is initialized to 0, the condition i is less than or equal to the value of range, and i is incremented.
   for (var i = 0; i <= range; i++) {
-// This line declares an if statement where if the remainder of the division of i by num1 is exactly equal to 0 AND the remainder of the division of i by num2 is exactly equal to 0,
+// Declare an if statement where if the remainder of the division of i by num1 is exactly equal to 0 AND the remainder of the division of i by num2 is exactly equal to 0,
     if (i % num1 === 0 && i % num2 === 0) {
-// the console will log "fizzbuzz".
+// log "fizzbuzz" to the console.
       console.log('fizzbuzz');
-// If the previous condition evalues to false, this line declares that if the remainder of the division of i by num1 is exactly equal to 0,
+// If false, declare that if the remainder of the division of i by num1 is exactly equal to 0,
     } else if (i % num1 === 0) {
-// the console will log fizz.
+// log "fizz" to the console.
       console.log('fizz');
-// If the previous condition evaluates to false, this line declares that if the remainder of the division of i by num2 is exactly equal to 0,
+// If false, declare that if the remainder of the division of i by num2 is exactly equal to 0,
     } else if (i % num2 === 0) {
-// the console will log buzz.
+// log "buzz" to the console.
       console.log('buzz');
 // If none of the above conditions are met,
     } else {
-// the console will log the value of i.
+// log the value of i to the console.
       console.log(i);
     }
   }
 }
-// This line calls the function and passes the values 3, 5, and 100 into the function as arguments.
+// Call the function and pass the arguments 3, 5, and 100.
 fizzBuzz(3, 5, 100);
-// This line calls the function and passes the values of 5, 8, and 400 into the function as arguments. There was actually a typo where fizzBuzz was returning not defined because the B wasn't capitalized. I fixed it.
+// Call the function and pass the arguments 5, 8, and 400. There was actually a typo where fizzBuzz was returning not defined because the B wasn't capitalized. I fixed it.
 fizzBuzz(5, 8, 400);
